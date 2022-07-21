@@ -104,7 +104,7 @@ body {
     border-radius: 10px;
     border: 1px solid #E8E8E8;
     font-size: 20px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .desing {
@@ -114,7 +114,7 @@ body {
 }
 
 .blog {
-    background-color:#f5f3f3;
+    background-color: #f5f3f3;
     border-radius: 10px;
 }
 
@@ -198,16 +198,18 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin-top: 50px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
     gap: 30px;
 
 }
+
 .footer-a a {
     color: #B9B9B9;
     text-decoration: none;
 
 }
-.social-icon{
+
+.social-icon {
     margin-left: 50px;
     margin-top: 20px;
 }
@@ -217,6 +219,7 @@ body {
     color: #2196f3;
     font-size: 25px;
 }
+
 /* Desktop media queary */
 
 /*----------------- 

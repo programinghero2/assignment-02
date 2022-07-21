@@ -125,8 +125,9 @@ body {
     justify-content: center;
     margin-top: 20px;
 }
-.blog-img h3{
-    margin:10px 5px;
+
+.blog-img h3 {
+    margin: 10px 5px;
 }
 
 .blog-img img {
@@ -135,7 +136,7 @@ body {
 
 .blog-h2 {
     font-size: 16px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 
 .details-button {
@@ -144,15 +145,17 @@ body {
     padding: 4px 16px;
 
 }
+
 .blog-details {
     margin-left: 10px;
     margin-bottom: 10px;
-    margin-top:10px;
+    margin-top: 10px;
 }
-.blog-details p{
-    font-size:14px;
-    margin-left:12px;
-    color:gray;
+
+.blog-details p {
+    font-size: 14px;
+    margin-left: 12px;
+    color: gray;
 }
 
 .bonus-button {
@@ -329,7 +332,7 @@ Tab view
         font-size: 14px;
         margin-bottom: 16px;
     }
-   
+
 
     .banner-details button {
         border: none;
@@ -358,11 +361,14 @@ Tab view
         height: 176px;
         background-color: #fff;
     }
+
     .blog-h2 {
-        text-align:center;
+        text-align: center;
     }
-    .blog-details p{
-        text-align: center;;
+
+    .blog-details p {
+        text-align: center;
+        ;
     }
 
     .button {
