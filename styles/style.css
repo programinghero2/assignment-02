@@ -33,7 +33,7 @@ body {
 
 .banner-details {
     color: #FFFFFF;
-    margin: 110px 24px 110px 110px;
+    margin: 80px 24px 110px 110px;
     width: 531px;
     height: 424px;
 }
@@ -51,7 +51,7 @@ body {
 }
 
 .banner-details h1 {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 700px;
 }
 
@@ -78,7 +78,7 @@ body {
 
 }
 
-.main-content {
+#main-content {
     display: grid;
     grid-template-columns: 270px repeat(3, 1fr);
     grid-template-rows: auto auto auto auto;
@@ -106,6 +106,7 @@ body {
     border-radius: 10px;
     border: 1px solid #E8E8E8;
     font-size: 20px;
+    cursor:pointer;
 }
 
 .desing {
@@ -199,17 +200,25 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin-top: 50px;
-    margin-bottom: 130px;
+    margin-bottom:40px;
     gap: 30px;
 
 }
-
 .footer-a a {
     color: #B9B9B9;
     text-decoration: none;
 
 }
+.social-icon{
+    margin-left: 50px;
+    margin-top: 20px;
+}
 
+.social-icon i {
+    margin-right: 50px;
+    color: #2196f3;
+    font-size: 25px;
+}
 /* Desktop media queary */
 
 /*----------------- 
@@ -234,7 +243,7 @@ Tab view
         height: 0px;
     }
 
-    .main-content {
+    #main-content {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -336,7 +345,7 @@ Tab view
         display: block;
     }
 
-    .main-content {
+    #main-content {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -360,7 +369,7 @@ Tab view
     }
 
     .footer-section {
-        height: 510px;
+        height: 550px;
     }
 
     .footer-a {
