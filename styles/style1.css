@@ -23,7 +23,7 @@ body {
 .banner-content {
     background-color: black;
     width: 95%;
-    margin: 50px 139px 139px 140px;
+    margin: 50px 139px 80px 140px;
     border-radius: 30px;
 }
 
@@ -74,7 +74,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 130px;
+    margin-bottom: 80px;
 
 }
 
@@ -106,7 +106,7 @@ body {
     border-radius: 10px;
     border: 1px solid #E8E8E8;
     font-size: 20px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .desing {
@@ -116,17 +116,27 @@ body {
 }
 
 .blog {
-    background-color:#f5f3f3;
+    height: 200px;
+    border: 1px solid #efecec;
     border-radius: 10px;
 }
 
+.blog-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.blog-img h3{
+    margin:10px 5px;
+}
+
 .blog-img img {
-    width: 100%;
+    width: 40%;
 }
 
 .blog-h2 {
-    font-size: 17px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom:5px;
 }
 
 .details-button {
@@ -135,23 +145,15 @@ body {
     padding: 4px 16px;
 
 }
-
-.blog-info {
-    display: flex;
-    justify-content: space-between;
-    width: 143px;
-    height: 16px;
-    color: #161616CC;
-}
-
-.blog-info i {
-    margin-right: 5px;
-    color: #161616CC;
-}
-
 .blog-details {
     margin-left: 10px;
     margin-bottom: 10px;
+    margin-top:10px;
+}
+.blog-details p{
+    font-size:14px;
+    margin-left:12px;
+    color:gray;
 }
 
 .bonus-button {
@@ -200,16 +202,18 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin-top: 50px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
     gap: 30px;
 
 }
+
 .footer-a a {
     color: #B9B9B9;
     text-decoration: none;
 
 }
-.social-icon{
+
+.social-icon {
     margin-left: 50px;
     margin-top: 20px;
 }
@@ -219,6 +223,7 @@ body {
     color: #2196f3;
     font-size: 25px;
 }
+
 /* Desktop media queary */
 
 /*----------------- 
@@ -325,6 +330,7 @@ Tab view
         font-size: 14px;
         margin-bottom: 16px;
     }
+   
 
     .banner-details button {
         border: none;
@@ -352,6 +358,12 @@ Tab view
     .sidebar {
         height: 176px;
         background-color: #fff;
+    }
+    .blog-h2 {
+        text-align:center;
+    }
+    .blog-details p{
+        text-align: center;;
     }
 
     .button {
